@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"VIO202Project1_atlas_1", frames: [[891,863,175,380],[1094,0,575,575],[1094,577,575,575],[1068,1154,129,359],[1671,0,374,533],[1671,535,374,533],[1022,833,50,23],[955,833,65,23],[1775,1271,171,112],[0,1274,172,108],[1671,1070,278,199],[0,0,575,655],[452,1227,272,141],[726,1245,272,141],[1612,1271,161,180],[577,0,515,655],[452,657,501,204],[452,863,437,180],[452,1045,437,180],[1951,1070,28,157],[955,784,101,47],[174,1274,155,46],[1199,1154,163,274],[1364,1154,246,173],[955,657,112,125],[0,657,450,615]]},
+		{name:"VIO202Project1_atlas_1", frames: [[1094,0,575,575],[439,1274,175,380],[1094,577,575,575],[0,657,575,575],[896,1274,129,359],[1671,0,374,533],[1671,535,374,533],[1029,816,50,23],[1931,1070,65,23],[616,1475,171,112],[1027,1503,172,108],[616,1274,278,199],[0,0,575,655],[1027,1360,272,141],[0,1416,272,141],[1301,1360,161,180],[577,0,515,655],[1029,1154,501,204],[1532,1154,437,180],[0,1234,437,180],[1029,657,28,157],[1828,1070,101,47],[1671,1070,155,46],[1532,1336,163,274],[1697,1336,246,173],[274,1416,112,125],[577,657,450,615]]},
 		{name:"VIO202Project1_atlas_2", frames: [[0,0,895,1235],[0,1237,1200,775],[1202,1234,575,655],[897,0,950,615],[897,617,950,615]]},
 		{name:"VIO202Project1_atlas_3", frames: [[1035,0,920,1250],[0,0,1033,1311]]},
 		{name:"VIO202Project1_atlas_4", frames: [[0,0,1052,1332]]},
@@ -110,58 +110,65 @@ p.nominalBounds = new cjs.Rectangle(0,0,2385,1549);
 p.nominalBounds = new cjs.Rectangle(0,0,2420,1570);
 
 
-(lib.S1_light_switch = function() {
+(lib.S1_blank = function() {
 	this.initialize(ss["VIO202Project1_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.S1_VonDoom = function() {
+(lib.S1_light_switch = function() {
 	this.initialize(ss["VIO202Project1_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.S1blank = function() {
+(lib.S1_VonDoom = function() {
 	this.initialize(ss["VIO202Project1_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.s2_cape_hang = function() {
+(lib.S1blank = function() {
 	this.initialize(ss["VIO202Project1_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.S2_Crim_cap = function() {
+(lib.s2_cape_hang = function() {
 	this.initialize(ss["VIO202Project1_atlas_1"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.S2_CrimBod = function() {
+(lib.S2_Crim_cap = function() {
 	this.initialize(ss["VIO202Project1_atlas_1"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.s2_crystalin = function() {
+(lib.S2_CrimBod = function() {
 	this.initialize(ss["VIO202Project1_atlas_1"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.s2_crystal_static = function() {
+(lib.s2_crystalin = function() {
 	this.initialize(ss["VIO202Project1_atlas_1"]);
 	this.gotoAndStop(7);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.s2_crystal_static = function() {
+	this.initialize(ss["VIO202Project1_atlas_1"]);
+	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -175,21 +182,21 @@ p.nominalBounds = new cjs.Rectangle(0,0,2420,1570);
 
 (lib.s2_head = function() {
 	this.initialize(ss["VIO202Project1_atlas_1"]);
-	this.gotoAndStop(8);
+	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.s2_headdown = function() {
 	this.initialize(ss["VIO202Project1_atlas_1"]);
-	this.gotoAndStop(9);
+	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.s2_speech = function() {
 	this.initialize(ss["VIO202Project1_atlas_1"]);
-	this.gotoAndStop(10);
+	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -203,70 +210,70 @@ p.nominalBounds = new cjs.Rectangle(0,0,2420,1570);
 
 (lib.S35Awaken = function() {
 	this.initialize(ss["VIO202Project1_atlas_1"]);
-	this.gotoAndStop(11);
+	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.s3speech1 = function() {
 	this.initialize(ss["VIO202Project1_atlas_1"]);
-	this.gotoAndStop(12);
+	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.s3_speech2 = function() {
 	this.initialize(ss["VIO202Project1_atlas_1"]);
-	this.gotoAndStop(13);
+	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.s3chip = function() {
 	this.initialize(ss["VIO202Project1_atlas_1"]);
-	this.gotoAndStop(14);
+	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.S4_Frame = function() {
 	this.initialize(ss["VIO202Project1_atlas_1"]);
-	this.gotoAndStop(15);
+	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.s4_speech = function() {
 	this.initialize(ss["VIO202Project1_atlas_1"]);
-	this.gotoAndStop(16);
+	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.s5_closed = function() {
 	this.initialize(ss["VIO202Project1_atlas_1"]);
-	this.gotoAndStop(17);
+	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.s5_open = function() {
 	this.initialize(ss["VIO202Project1_atlas_1"]);
-	this.gotoAndStop(18);
+	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.s6Bat = function() {
 	this.initialize(ss["VIO202Project1_atlas_1"]);
-	this.gotoAndStop(19);
+	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.s6CDs = function() {
 	this.initialize(ss["VIO202Project1_atlas_1"]);
-	this.gotoAndStop(20);
+	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -287,35 +294,35 @@ p.nominalBounds = new cjs.Rectangle(0,0,2420,1570);
 
 (lib.s6Gun = function() {
 	this.initialize(ss["VIO202Project1_atlas_1"]);
-	this.gotoAndStop(21);
+	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.s6Sling = function() {
 	this.initialize(ss["VIO202Project1_atlas_1"]);
-	this.gotoAndStop(22);
+	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.s6Speech = function() {
 	this.initialize(ss["VIO202Project1_atlas_1"]);
-	this.gotoAndStop(23);
+	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.s6VonDoom = function() {
 	this.initialize(ss["VIO202Project1_atlas_1"]);
-	this.gotoAndStop(24);
+	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.S7Final = function() {
 	this.initialize(ss["VIO202Project1_atlas_1"]);
-	this.gotoAndStop(25);
+	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -1183,8 +1190,11 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.S1blank();
+	this.instance = new lib.S1_blank();
 	this.instance.setTransform(-288,-288);
+
+	this.instance_1 = new lib.S1blank();
+	this.instance_1.setTransform(-288,-288);
 
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f().s("#000000").ss(10,1,1).p("Egs6gs6MBZ1AAAMAAABZ1MhZ1AAAg");
@@ -1194,7 +1204,7 @@ if (reversed == null) { reversed = false; }
 	this.shape_1.graphics.f("#FFFFFF").s().p("Egs6As7MAAAhZ1MBZ1AAAMAAABZ1g");
 	this.shape_1.setTransform(-0.5,-0.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape},{t:this.instance}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape},{t:this.instance_1},{t:this.instance}]}).wait(1));
 
 	this._renderFirstFrame();
 
@@ -2227,17 +2237,17 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_15.png?1648074759736", id:"CachedBmp_15"},
-		{src:"images/CachedBmp_13.png?1648074759736", id:"CachedBmp_13"},
-		{src:"images/VIO202Project1_atlas_1.png?1648074759684", id:"VIO202Project1_atlas_1"},
-		{src:"images/VIO202Project1_atlas_2.png?1648074759684", id:"VIO202Project1_atlas_2"},
-		{src:"images/VIO202Project1_atlas_3.png?1648074759684", id:"VIO202Project1_atlas_3"},
-		{src:"images/VIO202Project1_atlas_4.png?1648074759684", id:"VIO202Project1_atlas_4"},
-		{src:"images/VIO202Project1_atlas_5.png?1648074759684", id:"VIO202Project1_atlas_5"},
-		{src:"images/VIO202Project1_atlas_6.png?1648074759684", id:"VIO202Project1_atlas_6"},
-		{src:"images/VIO202Project1_atlas_7.png?1648074759684", id:"VIO202Project1_atlas_7"},
-		{src:"images/VIO202Project1_atlas_8.png?1648074759684", id:"VIO202Project1_atlas_8"},
-		{src:"images/VIO202Project1_atlas_9.png?1648074759684", id:"VIO202Project1_atlas_9"}
+		{src:"images/CachedBmp_15.png?1648075777915", id:"CachedBmp_15"},
+		{src:"images/CachedBmp_13.png?1648075777915", id:"CachedBmp_13"},
+		{src:"images/VIO202Project1_atlas_1.png?1648075777870", id:"VIO202Project1_atlas_1"},
+		{src:"images/VIO202Project1_atlas_2.png?1648075777871", id:"VIO202Project1_atlas_2"},
+		{src:"images/VIO202Project1_atlas_3.png?1648075777871", id:"VIO202Project1_atlas_3"},
+		{src:"images/VIO202Project1_atlas_4.png?1648075777871", id:"VIO202Project1_atlas_4"},
+		{src:"images/VIO202Project1_atlas_5.png?1648075777871", id:"VIO202Project1_atlas_5"},
+		{src:"images/VIO202Project1_atlas_6.png?1648075777871", id:"VIO202Project1_atlas_6"},
+		{src:"images/VIO202Project1_atlas_7.png?1648075777871", id:"VIO202Project1_atlas_7"},
+		{src:"images/VIO202Project1_atlas_8.png?1648075777871", id:"VIO202Project1_atlas_8"},
+		{src:"images/VIO202Project1_atlas_9.png?1648075777871", id:"VIO202Project1_atlas_9"}
 	],
 	preloads: []
 };
