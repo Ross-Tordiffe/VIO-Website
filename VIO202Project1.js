@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"VIO202Project1_atlas_1", frames: [[1094,0,575,575],[439,1274,175,380],[1094,577,575,575],[0,657,575,575],[896,1274,129,359],[1671,0,374,533],[1671,535,374,533],[1029,816,50,23],[1931,1070,65,23],[616,1475,171,112],[1027,1503,172,108],[616,1274,278,199],[0,0,575,655],[1027,1360,272,141],[0,1416,272,141],[1301,1360,161,180],[577,0,515,655],[1029,1154,501,204],[1532,1154,437,180],[0,1234,437,180],[1029,657,28,157],[1828,1070,101,47],[1671,1070,155,46],[1532,1336,163,274],[1697,1336,246,173],[274,1416,112,125],[577,657,450,615]]},
+		{name:"VIO202Project1_atlas_1", frames: [[1094,0,575,575],[439,1274,175,380],[1094,577,575,575],[0,657,575,575],[896,1274,129,359],[1671,0,374,533],[1671,535,374,533],[1029,816,50,23],[1931,1070,65,23],[1714,1467,171,112],[616,1475,172,108],[616,1274,278,199],[0,0,575,655],[0,1416,272,141],[1440,1467,272,141],[274,1416,161,180],[577,0,515,655],[1029,1154,501,204],[1532,1154,437,180],[0,1234,437,180],[1029,657,28,157],[1828,1070,101,47],[1671,1070,155,46],[1027,1360,163,274],[1192,1360,246,173],[1887,1467,112,125],[577,657,450,615],[1532,1336,412,129]]},
 		{name:"VIO202Project1_atlas_2", frames: [[0,0,895,1235],[0,1237,1200,775],[1202,1234,575,655],[897,0,950,615],[897,617,950,615]]},
 		{name:"VIO202Project1_atlas_3", frames: [[1035,0,920,1250],[0,0,1033,1311]]},
 		{name:"VIO202Project1_atlas_4", frames: [[0,0,1052,1332]]},
@@ -11,7 +11,8 @@ lib.ssMetadata = [
 		{name:"VIO202Project1_atlas_6", frames: [[0,0,1902,1235]]},
 		{name:"VIO202Project1_atlas_7", frames: [[0,0,1170,1330]]},
 		{name:"VIO202Project1_atlas_8", frames: [[0,0,1148,1313]]},
-		{name:"VIO202Project1_atlas_9", frames: [[0,0,1920,1250]]}
+		{name:"VIO202Project1_atlas_9", frames: [[0,0,1920,1250]]},
+		{name:"VIO202Project1_atlas_10", frames: [[0,0,1920,1250]]}
 ];
 
 
@@ -56,6 +57,13 @@ lib.ssMetadata = [
 
 
 
+(lib.CachedBmp_26 = function() {
+	this.initialize(ss["VIO202Project1_atlas_9"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.CachedBmp_25 = function() {
 	this.initialize(ss["VIO202Project1_atlas_5"]);
 	this.gotoAndStop(0);
@@ -63,8 +71,8 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_26 = function() {
-	this.initialize(ss["VIO202Project1_atlas_9"]);
+(lib.CachedBmp_24 = function() {
+	this.initialize(ss["VIO202Project1_atlas_10"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
@@ -324,6 +332,13 @@ p.nominalBounds = new cjs.Rectangle(0,0,2420,1570);
 	this.initialize(ss["VIO202Project1_atlas_1"]);
 	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
+
+
+
+(lib.s7Cds = function() {
+	this.initialize(ss["VIO202Project1_atlas_1"]);
+	this.gotoAndStop(27);
+}).prototype = p = new cjs.Sprite();
 // helper functions:
 
 function mc_symbol_clone() {
@@ -355,16 +370,19 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.S7Final();
-	this.instance.setTransform(-225,-308);
+	this.instance = new lib.s7Cds();
+	this.instance.setTransform(-204,-21);
 
-	this.instance_1 = new lib.CachedBmp_23();
-	this.instance_1.setTransform(-224,-308.85,0.5,0.5);
+	this.instance_1 = new lib.S7Final();
+	this.instance_1.setTransform(-225,-308);
 
-	this.instance_2 = new lib.CachedBmp_22();
-	this.instance_2.setTransform(-230,-313,0.5,0.5);
+	this.instance_2 = new lib.CachedBmp_23();
+	this.instance_2.setTransform(-224,-308.85,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
+	this.instance_3 = new lib.CachedBmp_22();
+	this.instance_3.setTransform(-230,-313,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_3},{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
 
 	this._renderFirstFrame();
 
@@ -449,16 +467,19 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.S6Frame2();
-	this.instance.setTransform(-475,-308);
+	this.instance = new lib.s6VonDoom();
+	this.instance.setTransform(-8,63);
 
-	this.instance_1 = new lib.CachedBmp_27();
-	this.instance_1.setTransform(-476.15,-309,0.5,0.5);
+	this.instance_1 = new lib.S6Frame2();
+	this.instance_1.setTransform(-475,-308);
 
-	this.instance_2 = new lib.CachedBmp_26();
-	this.instance_2.setTransform(-480,-313,0.5,0.5);
+	this.instance_2 = new lib.CachedBmp_27();
+	this.instance_2.setTransform(-476.15,-309,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
+	this.instance_3 = new lib.CachedBmp_26();
+	this.instance_3.setTransform(-480,-313,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_3},{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
 
 	this._renderFirstFrame();
 
@@ -477,16 +498,19 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.S6Frame1();
-	this.instance.setTransform(-475,-308);
+	this.instance = new lib.s6VonDoom();
+	this.instance.setTransform(-8,62);
 
-	this.instance_1 = new lib.CachedBmp_25();
-	this.instance_1.setTransform(-476.15,-309,0.5,0.5);
+	this.instance_1 = new lib.S6Frame1();
+	this.instance_1.setTransform(-475,-308);
 
-	this.instance_2 = new lib.CachedBmp_26();
-	this.instance_2.setTransform(-480,-313,0.5,0.5);
+	this.instance_2 = new lib.CachedBmp_25();
+	this.instance_2.setTransform(-476.15,-309,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
+	this.instance_3 = new lib.CachedBmp_24();
+	this.instance_3.setTransform(-480,-313,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_3},{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
 
 	this._renderFirstFrame();
 
@@ -2237,17 +2261,18 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_15.png?1648075777915", id:"CachedBmp_15"},
-		{src:"images/CachedBmp_13.png?1648075777915", id:"CachedBmp_13"},
-		{src:"images/VIO202Project1_atlas_1.png?1648075777870", id:"VIO202Project1_atlas_1"},
-		{src:"images/VIO202Project1_atlas_2.png?1648075777871", id:"VIO202Project1_atlas_2"},
-		{src:"images/VIO202Project1_atlas_3.png?1648075777871", id:"VIO202Project1_atlas_3"},
-		{src:"images/VIO202Project1_atlas_4.png?1648075777871", id:"VIO202Project1_atlas_4"},
-		{src:"images/VIO202Project1_atlas_5.png?1648075777871", id:"VIO202Project1_atlas_5"},
-		{src:"images/VIO202Project1_atlas_6.png?1648075777871", id:"VIO202Project1_atlas_6"},
-		{src:"images/VIO202Project1_atlas_7.png?1648075777871", id:"VIO202Project1_atlas_7"},
-		{src:"images/VIO202Project1_atlas_8.png?1648075777871", id:"VIO202Project1_atlas_8"},
-		{src:"images/VIO202Project1_atlas_9.png?1648075777871", id:"VIO202Project1_atlas_9"}
+		{src:"images/CachedBmp_15.png?1648076745655", id:"CachedBmp_15"},
+		{src:"images/CachedBmp_13.png?1648076745655", id:"CachedBmp_13"},
+		{src:"images/VIO202Project1_atlas_1.png?1648076745612", id:"VIO202Project1_atlas_1"},
+		{src:"images/VIO202Project1_atlas_2.png?1648076745612", id:"VIO202Project1_atlas_2"},
+		{src:"images/VIO202Project1_atlas_3.png?1648076745613", id:"VIO202Project1_atlas_3"},
+		{src:"images/VIO202Project1_atlas_4.png?1648076745613", id:"VIO202Project1_atlas_4"},
+		{src:"images/VIO202Project1_atlas_5.png?1648076745613", id:"VIO202Project1_atlas_5"},
+		{src:"images/VIO202Project1_atlas_6.png?1648076745613", id:"VIO202Project1_atlas_6"},
+		{src:"images/VIO202Project1_atlas_7.png?1648076745613", id:"VIO202Project1_atlas_7"},
+		{src:"images/VIO202Project1_atlas_8.png?1648076745613", id:"VIO202Project1_atlas_8"},
+		{src:"images/VIO202Project1_atlas_9.png?1648076745613", id:"VIO202Project1_atlas_9"},
+		{src:"images/VIO202Project1_atlas_10.png?1648076745613", id:"VIO202Project1_atlas_10"}
 	],
 	preloads: []
 };
