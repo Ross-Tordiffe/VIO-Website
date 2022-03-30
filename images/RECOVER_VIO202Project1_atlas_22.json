@@ -1,0 +1,27 @@
+{"frames": {
+
+"s2_speech":
+{
+	"frame": {"x":0,"y":0,"w":1200,"h":775},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1200,"h":775},
+	"sourceSize": {"w":1200,"h":775}
+},
+"s2_speech2":
+{
+	"frame": {"x":0,"y":777,"w":1200,"h":775},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1200,"h":775},
+	"sourceSize": {"w":1200,"h":775}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "22.0.5.191",
+	"image": "RECOVER_VIO202Project1_atlas_22.png",
+	"format": "undefined",
+	"size": {"w":2048,"h":2048},
+	"scale": "1"
+}
+}

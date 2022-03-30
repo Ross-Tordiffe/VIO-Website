@@ -1,0 +1,19 @@
+{"frames": {
+
+"CachedBmp_8":
+{
+	"frame": {"x":0,"y":0,"w":1902,"h":1235},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1902,"h":1235},
+	"sourceSize": {"w":1902,"h":1235}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "22.0.5.191",
+	"image": "VIO202Project1_atlas_3.png",
+	"format": "undefined",
+	"size": {"w":2048,"h":2048},
+	"scale": "1"
+}
+}

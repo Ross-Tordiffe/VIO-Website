@@ -1,0 +1,83 @@
+{"frames": {
+
+"S1_VonDoom":
+{
+	"frame": {"x":1094,"y":0,"w":575,"h":575},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":575,"h":575},
+	"sourceSize": {"w":575,"h":575}
+},
+"S1_VonDoom0000":
+{
+	"frame": {"x":517,"y":577,"w":575,"h":575},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":575,"h":575},
+	"sourceSize": {"w":575,"h":575}
+},
+"S1_VonDoom0001":
+{
+	"frame": {"x":517,"y":1154,"w":575,"h":575},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":575,"h":575},
+	"sourceSize": {"w":575,"h":575}
+},
+"S1_VonDoom0002":
+{
+	"frame": {"x":1094,"y":577,"w":575,"h":575},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":575,"h":575},
+	"sourceSize": {"w":575,"h":575}
+},
+"S1_VonDoom0003":
+{
+	"frame": {"x":1094,"y":1154,"w":575,"h":575},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":575,"h":575},
+	"sourceSize": {"w":575,"h":575}
+},
+"S1_blank":
+{
+	"frame": {"x":517,"y":0,"w":575,"h":575},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":575,"h":575},
+	"sourceSize": {"w":575,"h":575}
+},
+"S4_Frame":
+{
+	"frame": {"x":0,"y":0,"w":515,"h":655},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":515,"h":655},
+	"sourceSize": {"w":515,"h":655}
+},
+"S4_s1":
+{
+	"frame": {"x":0,"y":657,"w":515,"h":655},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":515,"h":655},
+	"sourceSize": {"w":515,"h":655}
+},
+"S4_s2":
+{
+	"frame": {"x":0,"y":1314,"w":515,"h":655},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":515,"h":655},
+	"sourceSize": {"w":515,"h":655}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "22.0.5.191",
+	"image": "RECOVER_VIO202Project1_atlas_11.png",
+	"format": "undefined",
+	"size": {"w":2048,"h":2048},
+	"scale": "1"
+}
+}

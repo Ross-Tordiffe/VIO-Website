@@ -1,0 +1,51 @@
+{"frames": {
+
+"CachedBmp_12":
+{
+	"frame": {"x":0,"y":0,"w":895,"h":1235},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":895,"h":1235},
+	"sourceSize": {"w":895,"h":1235}
+},
+"S2_Frame":
+{
+	"frame": {"x":0,"y":1237,"w":1200,"h":775},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1200,"h":775},
+	"sourceSize": {"w":1200,"h":775}
+},
+"S35AwakenAwake":
+{
+	"frame": {"x":1202,"y":1234,"w":575,"h":655},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":575,"h":655},
+	"sourceSize": {"w":575,"h":655}
+},
+"S6Frame1":
+{
+	"frame": {"x":897,"y":0,"w":950,"h":615},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":950,"h":615},
+	"sourceSize": {"w":950,"h":615}
+},
+"S6Frame2":
+{
+	"frame": {"x":897,"y":617,"w":950,"h":615},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":950,"h":615},
+	"sourceSize": {"w":950,"h":615}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "22.0.5.191",
+	"image": "VIO202Project1_atlas_10.png",
+	"format": "undefined",
+	"size": {"w":2048,"h":2048},
+	"scale": "1"
+}
+}

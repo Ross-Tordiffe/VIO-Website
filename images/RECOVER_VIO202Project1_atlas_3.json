@@ -1,0 +1,211 @@
+{"frames": {
+
+"S1_VonDoom0022":
+{
+	"frame": {"x":0,"y":0,"w":575,"h":575},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":575,"h":575},
+	"sourceSize": {"w":575,"h":575}
+},
+"S1_VonDoom0023":
+{
+	"frame": {"x":577,"y":0,"w":575,"h":575},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":575,"h":575},
+	"sourceSize": {"w":575,"h":575}
+},
+"S1blank":
+{
+	"frame": {"x":1154,"y":0,"w":575,"h":575},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":575,"h":575},
+	"sourceSize": {"w":575,"h":575}
+},
+"S2_CrimBod":
+{
+	"frame": {"x":828,"y":577,"w":374,"h":533},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":374,"h":533},
+	"sourceSize": {"w":374,"h":533}
+},
+"S2_Crim_cap":
+{
+	"frame": {"x":452,"y":577,"w":374,"h":533},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":374,"h":533},
+	"sourceSize": {"w":374,"h":533}
+},
+"S4_wire":
+{
+	"frame": {"x":1204,"y":941,"w":664,"h":95},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":664,"h":95},
+	"sourceSize": {"w":664,"h":95}
+},
+"S7Final":
+{
+	"frame": {"x":0,"y":577,"w":450,"h":615},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":450,"h":615},
+	"sourceSize": {"w":450,"h":615}
+},
+"chip2":
+{
+	"frame": {"x":1862,"y":182,"w":162,"h":165},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":162,"h":165},
+	"sourceSize": {"w":162,"h":165}
+},
+"chip3":
+{
+	"frame": {"x":1814,"y":679,"w":158,"h":151},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":151},
+	"sourceSize": {"w":158,"h":151}
+},
+"chip4":
+{
+	"frame": {"x":1643,"y":679,"w":169,"h":147},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":169,"h":147},
+	"sourceSize": {"w":169,"h":147}
+},
+"s1_speech":
+{
+	"frame": {"x":1731,"y":536,"w":213,"h":141},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":213,"h":141},
+	"sourceSize": {"w":213,"h":141}
+},
+"s2_cape_hang":
+{
+	"frame": {"x":1731,"y":0,"w":129,"h":359},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":129,"h":359},
+	"sourceSize": {"w":129,"h":359}
+},
+"s2_crystal_static":
+{
+	"frame": {"x":1979,"y":508,"w":65,"h":23},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":65,"h":23},
+	"sourceSize": {"w":65,"h":23}
+},
+"s2_crystalin":
+{
+	"frame": {"x":1979,"y":533,"w":50,"h":23},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":50,"h":23},
+	"sourceSize": {"w":50,"h":23}
+},
+"s2_head":
+{
+	"frame": {"x":1870,"y":832,"w":171,"h":112},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":171,"h":112},
+	"sourceSize": {"w":171,"h":112}
+},
+"s2_headdown":
+{
+	"frame": {"x":1870,"y":946,"w":172,"h":108},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":172,"h":108},
+	"sourceSize": {"w":172,"h":108}
+},
+"s3chip":
+{
+	"frame": {"x":1862,"y":0,"w":161,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":161,"h":180},
+	"sourceSize": {"w":161,"h":180}
+},
+"s5_closed":
+{
+	"frame": {"x":1204,"y":577,"w":437,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":437,"h":180},
+	"sourceSize": {"w":437,"h":180}
+},
+"s5_open":
+{
+	"frame": {"x":1204,"y":759,"w":437,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":437,"h":180},
+	"sourceSize": {"w":437,"h":180}
+},
+"s6Bat":
+{
+	"frame": {"x":1979,"y":349,"w":28,"h":157},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":28,"h":157},
+	"sourceSize": {"w":28,"h":157}
+},
+"s6CDs":
+{
+	"frame": {"x":1643,"y":876,"w":101,"h":47},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":101,"h":47},
+	"sourceSize": {"w":101,"h":47}
+},
+"s6Gun":
+{
+	"frame": {"x":1643,"y":828,"w":155,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":155,"h":46},
+	"sourceSize": {"w":155,"h":46}
+},
+"s6Speech":
+{
+	"frame": {"x":1731,"y":361,"w":246,"h":173},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":246,"h":173},
+	"sourceSize": {"w":246,"h":173}
+},
+"s6VonDoom":
+{
+	"frame": {"x":1618,"y":1038,"w":112,"h":125},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":125},
+	"sourceSize": {"w":112,"h":125}
+},
+"s7Cds":
+{
+	"frame": {"x":1204,"y":1038,"w":412,"h":129},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":412,"h":129},
+	"sourceSize": {"w":412,"h":129}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "22.0.5.191",
+	"image": "RECOVER_VIO202Project1_atlas_3.png",
+	"format": "undefined",
+	"size": {"w":2048,"h":2048},
+	"scale": "1"
+}
+}
